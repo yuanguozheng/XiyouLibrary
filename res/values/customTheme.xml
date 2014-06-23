@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="CustomWindowTitleBackground">
+        <item name="android:background">#35a7ff</item>
+    </style>
+
+    <style name="myTheme" parent="android:Theme.Light">
+        <item name="android:windowTitleSize">45dp</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:windowTitleBackgroundStyle">@style/CustomWindowTitleBackground</item>
+    </style>
+
+</resources>

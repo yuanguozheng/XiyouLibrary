@@ -1,0 +1,45 @@
+	/*SimpleAdapter adapter = new SimpleAdapter(this, resultItems,
+					R.layout.searchresult_item, new String[] { "Name" },
+					new int[] { R.id.searchresult_title });
+
+			BaseAdapter adapter2 = new BaseAdapter() {
+
+				
+				 * class ViewHolder { TextView name; }
+				 
+				@Override
+				public View getView(int position, View convertView,
+						ViewGroup parent) {
+					
+					 * ViewHolder holder = null; if (convertView == null) {
+					 * convertView = LayoutInflater.from(SearchActivity.this)
+					 * .inflate(R.layout.searchresult_item, null); holder = new
+					 * ViewHolder(); holder.name = (TextView)
+					 * findViewById(R.id.searchresult_title); }
+					 
+
+					LinearLayout line = new LinearLayout(SearchActivity.this);
+					line.setOrientation(LinearLayout.VERTICAL);
+					TextView textView = new TextView(SearchActivity.this);
+					textView.setPadding(20, 10, 20, 10);
+					textView.setTextSize(18);
+					textView.setText((resultItems.get(position).get("Name")));
+					line.addView(textView);
+					return line;
+				}
+
+				@Override
+				public long getItemId(int position) {
+					return position;
+				}
+
+				@Override
+				public Object getItem(int position) {
+					return (resultItems.get(position).get("ID")).toString();
+				}
+
+				@Override
+				public int getCount() {
+					return resultItems.size();
+				}
+			};*/
